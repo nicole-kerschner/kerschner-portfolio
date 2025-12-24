@@ -10,7 +10,7 @@ function Home() {
     <div>
     <Header/>
     <div className="home">
-      <img src={headshot} className="headshot" />
+      <img src={headshot} className="headshot" alt="Nicole Kerschner headshot"/>
       <div className="home-text">
         <h1 className="left-aligned brown-text">Hi, I'm Nicole!</h1>
         <p className="home-p">

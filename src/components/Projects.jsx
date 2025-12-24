@@ -16,7 +16,7 @@ function Projects() {
       <Header />
       <div>
         <div className="project-box">
-          <img src={song_2_playlist_icon} className="project-icon"/>
+          <img src={song_2_playlist_icon} className="project-icon" alt="Song2Playlist Icon"/>
           <div className="project_label">
             <h2>Song2Playlist</h2>
             <h4>Harvey Mudd College</h4>
@@ -30,7 +30,7 @@ function Projects() {
         </div>
         <hr className="divider" />
         <div className="project-box">
-          <img src={common_ground_icon} className="project-icon" />
+          <img src={common_ground_icon} className="project-icon" alt="Common Ground Icon"/>
           <div className="project_label">
             <h2>Common Ground</h2>
             <h4>Harvey Mudd College + The Union of Concerned Scientists</h4>
@@ -45,7 +45,7 @@ function Projects() {
         </div>
         <hr className="divider" />
         <div className="project-box">
-          <img src={data_sci_icon} className="project-icon" />
+          <img src={data_sci_icon} className="project-icon" alt="Data Science Website Icon"/>
           <div className="project_label">
             <h2>Scripps Data Science Website</h2>
             <h4>P-ai at the Claremont Colleges</h4>

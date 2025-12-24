@@ -13,7 +13,11 @@ function CommonGround() {
         The Union of Concerned Scientists & Harvey Mudd College Clinic Program
       </h3>
       <div className="overview">
-        <img src={common_ground_home} className="overview-img" />
+        <img
+          src={common_ground_home}
+          className="overview-img"
+          alt="The Common Ground Start Screen, with options to Start Game and Start Tutorial"
+        />
         <div className="overview-text">
           <p>
             <b>Overview:</b>
@@ -59,7 +63,11 @@ function CommonGround() {
         particular iterated on the event cards, the land types, and game tiles.
       </p>
       <div className="center-content">
-        <img src={paper_prototypes} className="width-600" />
+        <img
+          src={paper_prototypes}
+          className="width-600"
+          alt="Three paper cards depicting the Stormwater Basin option, with increasing visual refinement."
+        />
         <p className="label">
           Iterations of land repurposing project cards across paper prototypes.
         </p>
@@ -77,7 +85,11 @@ function CommonGround() {
         (the EOTA model).
       </p>
       <div className="center-content">
-        <img src={playtest} className="width-400" />
+        <img
+          src={playtest}
+          className="width-400"
+          alt="A game setup from a playtest, with a paper gameboard and cards."
+        />
         <p className="label">
           A photo from one of our playtests with the game board, land
           repurposing cards, and metric sheet visible.
@@ -95,7 +107,11 @@ function CommonGround() {
         interactive fidelity.
       </p>
       <div className="center-content">
-        <img src={common_ground_gameplay} className="width-600" />
+        <img
+          src={common_ground_gameplay}
+          className="width-600"
+          alt="The prototyped game screen with a proposed card, the game board, and tutorial text."
+        />
         <p className="label">
           A digital prototype of the card proposal game mechanic.
         </p>

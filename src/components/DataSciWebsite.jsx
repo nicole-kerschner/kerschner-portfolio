@@ -15,7 +15,11 @@ function DataSciWebsite() {
       </h1>
       <h3 className="margin-left">P-ai at the Claremont Colleges</h3>
       <div className="overview">
-        <img src={data_sci_icon} className="overview-img" />
+        <img
+          src={data_sci_icon}
+          className="overview-img"
+          alt="a screenshot of the website's home page"
+        />
         <div className="overview-text">
           <p>
             <b>Overview:</b>
@@ -63,16 +67,24 @@ function DataSciWebsite() {
       <hr className="divider" />
       <h1 className="margin-left project-header">Website Design</h1>
       <p className="margin-left width-90">
-        The majority of the work on the Software Engineering side was transforming the
-        UX/UI team’s visions into reality, but that didn’t mean we didn’t do our
-        fair share of prototyping!
+        The majority of the work on the Software Engineering side was
+        transforming the UX/UI team’s visions into reality, but that didn’t mean
+        we didn’t do our fair share of prototyping!
       </p>
       <div className="center-content">
-        <img src={whiteboard_wireframe} className="width-600" />
+        <img
+          src={whiteboard_wireframe}
+          className="width-600"
+          alt="Two college students (Diya and Nicole) presenting in front of a whiteboard"
+        />
         <p className="label">
           Diya and I presenting a low-fidelity wireframe for the Home Page.
         </p>
-        <img src={courses_wireframe} className="width-600" />
+        <img
+          src={courses_wireframe}
+          className="width-600"
+          alt="A screenshot of a webpage prototype giving details about required courses"
+        />
         <p className="label">
           A Figma wireframe I created to envision the Courses Page.
         </p>
@@ -94,12 +106,13 @@ function DataSciWebsite() {
         <p className="wesbite-dev-text">
           We built the website from scratch using Node.js, all the way from
           designing to deployment. I had previous experience building web apps
-          but had never used React before, so there was a certain learning curve. I
-          especially focused on the Home, Faculty, Resources, and About pages.
+          but had never used React before, so there was a certain learning
+          curve. I especially focused on the Home, Faculty, Resources, and About
+          pages.
         </p>
       </div>
       <div className="center-content">
-        <img src={early_faqs} className="early-faqs" />
+        <img src={early_faqs} className="early-faqs" alt="A screenshot of a webpage giving details about FAQs"/>
         <p className="label">An early version of the FAQs page.</p>
       </div>
       <hr className="divider" />
@@ -114,7 +127,7 @@ function DataSciWebsite() {
         </p>
       </div>
       <div className="center-content">
-        <img src={progress} className="progress-img" />
+        <img src={progress} className="progress-img" alt="A document with weekly progress details about the project"/>
         <p className="label">A screenshot from our weekly progress document.</p>
       </div>
 
@@ -137,7 +150,7 @@ function DataSciWebsite() {
             <li>The Hive at the Claremont Colleges</li>
           </ul>
         </p>
-        <img src={poster} className="poster-img" />
+        <img src={poster} className="poster-img" alt="My team with our project poster"/>
       </div>
       <hr className="divider" />
       <div className="center-content">

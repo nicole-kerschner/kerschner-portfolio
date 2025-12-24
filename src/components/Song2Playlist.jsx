@@ -14,7 +14,11 @@ function Song2Playlist() {
         Human Centered Computing Methods: Harvey Mudd College
       </h3>
       <div className="overview">
-        <img src={song_2_playlist_icon} className="overview-img" />
+        <img
+          src={song_2_playlist_icon}
+          className="overview-img"
+          alt="A title slide for the project with the text 'Why do I hate Spotify recommendations?'"
+        />
         <div className="overview-text">
           <p>
             <b>Overview:</b>
@@ -22,10 +26,11 @@ function Song2Playlist() {
           <p>
             If Spotify has over 100 million songs, why can it be so hard to find
             music that you like? This was a completely self-directed UX Research
-            project in which I gathered data from 35 Spotify users by way of various UX
-            Research methods. I found that users want to have a more active role
-            in their music recommendations, and they want information about why
-            they’re getting the recommendations that they are.
+            project in which I gathered data from 35 Spotify users by way of
+            various UX Research methods. I found that users want to have a more
+            active role in their music recommendations, and they want
+            information about why they’re getting the recommendations that they
+            are.
           </p>
         </div>
       </div>
@@ -133,7 +138,11 @@ function Song2Playlist() {
           </ul>
         </p>
         <div className="center-content">
-          <img src={personas} className="project-photo width-600" />
+          <img
+            src={personas}
+            className="project-photo width-600"
+            alt="A slide detailing a persona for an 'avid playlister'"
+          />
           <p className="label">
             {" "}
             A sample persona about playlisting habits, created after analyzing
@@ -162,7 +171,11 @@ function Song2Playlist() {
           </ul>
         </p>
         <div className="center-content">
-          <img src={survey_header} className="project-photo width-500" />
+          <img
+            src={survey_header}
+            className="project-photo width-500"
+            alt="The header for a Google Form, with text about the survey details"
+          />
           <p className="label">
             {" "}
             The header of the survey sent out to participants.
@@ -191,7 +204,11 @@ function Song2Playlist() {
           </ul>
         </p>
         <div className="center-content">
-          <img src={storyboard} className="project-photo width-600" />
+          <img
+            src={storyboard}
+            className="project-photo width-600"
+            alt="A paper storyboard showing how a person can use a recommendation system"
+          />
           <p className="label">
             {" "}
             One of three storyboards that I “speed dated” with participants.
@@ -220,7 +237,7 @@ function Song2Playlist() {
           </ul>
         </p>
         <div className="center-content">
-          <img src={prototype} className="project-photo width-600" />
+          <img src={prototype} className="project-photo width-600" alt="A paper prototype of the app Song2Playlist"/>
           <p className="label">
             {" "}
             My low-fidelity prototype that I tested with participants.

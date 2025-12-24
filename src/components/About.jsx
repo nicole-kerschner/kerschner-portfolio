@@ -9,7 +9,11 @@ function About() {
       <h1 className="margin-left">About</h1>
       <div className="about">
         <div>
-          <img src={full_body} className="full-body"></img>
+          <img
+            src={full_body}
+            className="full-body"
+            alt="Nicole Kerschner full body image"
+          ></img>
         </div>
         <div className="about-text">
           <p>
@@ -25,9 +29,9 @@ function About() {
             the President of the Scripps Cheese Club!
           </p>
           <p>
-            I’ve most recently completed a second internship at Scout Clean Energy in
-            Boulder, CO, developing Geospatial (GIS) tools and software for clean energy
-            development.
+            I’ve most recently completed a second internship at Scout Clean
+            Energy in Boulder, CO, developing Geospatial (GIS) tools and
+            software for clean energy development.
           </p>
         </div>
       </div>
@@ -35,8 +39,12 @@ function About() {
         <a className="linked" href="mailto:nicole.p.kerschner@gmail.com">
           <MdEmail /> Email
         </a>
-        <br/>
-        <a className="linked" target="_blank" href="https://www.linkedin.com/in/nicole-kerschner">
+        <br />
+        <a
+          className="linked"
+          target="_blank"
+          href="https://www.linkedin.com/in/nicole-kerschner"
+        >
           <FaLinkedin /> LinkedIn
         </a>
       </div>
