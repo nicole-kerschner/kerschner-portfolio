@@ -274,7 +274,7 @@ a:hover {
 
 .overview-img {
   width: 325px;
-  aspect-ratio: 3 / 2;
+  /* aspect-ratio: 3 / 2; */
 }
 
 .project-header {

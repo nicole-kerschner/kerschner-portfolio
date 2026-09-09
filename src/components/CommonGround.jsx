@@ -26,10 +26,10 @@ function CommonGround() {
             The Union of Concerned Scientists (UCS) has been doing research in
             small agricultural communities in California’s Central Valley to
             explore how repurposing agricultural land can improve sustainability
-            and water security. My team and I are creating a digital
-            strategy-based game that showcases the benefits of this land
-            repurposing. We started with brainstorming and design, and are now
-            focused on building out actual gameplay.
+            and water security. My team and I created a digital strategy-based
+            game that showcases the benefits of this land repurposing. We
+            started with brainstorming and design, and are now focused on
+            building out actual gameplay.
           </p>
         </div>
       </div>
@@ -75,14 +75,24 @@ function CommonGround() {
       <hr className="divider" />
       <h1 className="margin-left project-header">Game Design - Playtests</h1>
       <p className="margin-left width-90">
-        Throughout the course of development, we have run four playtests with
-        various prototypes of the game. These playtests have given us invaluable
-        feedback, particularly as we try to make the game as fun as possible.
+        Throughout the course of development, our primary source of feedback
+        came from playtests. Overall, 48 players (both students and experts)
+        played our game throughout various stages of development. We received an
+        immeasureable amount of valuable feedback from these playtests, and they
+        shaped many of the core aspects of the game.
       </p>
       <p className="margin-left width-90">
-        I ran one playtest completely solo with some of my own friends, asking
-        for feedback on their Experiences, Observations, Theories, and Actions
-        (the EOTA model).
+        During the Fall Semester, our playtests were run on a paper version of
+        the game, where game developers took notes on gameplay and user
+        Experiences, Observations, Theories, and Actions (EOTA model).
+      </p>
+      <p className="margin-left width-90">
+        During the Spring Semester, we ran playtests with a digital version of
+        the game. Because we were using a higher-fidelity version, also gathered
+        feedback on clarity, flow, balance, duration, integration, fun,
+        interaction, and competition via a Likert-scale survey. This allowed us
+        to formalize some of the feedback we were given, as well as see changes
+        over time.
       </p>
       <div className="center-content">
         <img
@@ -91,7 +101,7 @@ function CommonGround() {
           alt="A game setup from a playtest, with a paper gameboard and cards."
         />
         <p className="label">
-          A photo from one of our playtests with the game board, land
+          A photo from one of our paper playtests with the game board, land
           repurposing cards, and metric sheet visible.
         </p>
       </div>
