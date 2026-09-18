@@ -122,15 +122,17 @@ function CommonGround() {
             alt="A game setup from a playtest, with a paper gameboard and cards."
           />
           <p className="label">
-            A photo from one of our paper playtests with the game board, land
-            repurposing cards, and metric sheet visible.
+            A photo from one of our paper playtests with the game board,
+          </p>
+          <p className="label">
+            land repurposing cards, and metric sheet visible.
           </p>
         </div>
         <div className="center-content">
           <img
             src={digital_playtest}
             className="width-600"
-            alt="A game setup from a playtest, with a paper gameboard and cards."
+            alt="A digital playtest with four players gathered around a TV screen with the game displayed."
           />
           <p className="label">
             A photo from one of our digital playtests with players gathered
