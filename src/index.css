@@ -147,7 +147,6 @@ a:hover {
 
 .overview {
   margin: auto;
-  margin-top: 1%;
   margin-bottom: 1%;
   max-width: 90%;
   place-items: center;
@@ -177,7 +176,8 @@ a:hover {
 }
 
 .navbar {
-  width: 100%;
+  width: 99%;
+  padding-left: 1%;
   --bs-navbar-color: black;
   --bs-navbar-active-color: #e6644a;
   --bs-navbar-hover-color: #e6644a;
@@ -265,6 +265,7 @@ a:hover {
 
 .about-text {
   margin-left: 1%;
+  max-width: 60%;
 }
 
 .overview-text {
@@ -325,9 +326,9 @@ a:hover {
 .home-p {
   font-size: 24px;
 }
-.poster-img {
+/* .poster-img {
   height: 250px;
-}
+} */
 
 .thanks {
   margin-right: 10%;
@@ -341,6 +342,11 @@ a:hover {
 .project-photo {
   border: 1px solid #000000;
   filter: drop-shadow(2px 3px 2px #e6644a);
+}
+
+.image-container{
+  display: flex;
+  max-width: 90%;
 }
 /* 
 

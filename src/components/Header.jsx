@@ -7,14 +7,14 @@ import resume from "./files/PortfolioResume.pdf";
 function Header() {
   return (
     <div className="navbar">
-      <Navbar expand="lg" sticky="top" className="bg-body-tertiary">
-        <Container>
+      <Navbar expand="xxl" sticky="top" className="bg-body-tertiary">
+        <Container fluid>
           <Navbar.Brand href="/" className="nav-brand">
             Nicole Kerschner
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="justify-content-end flex-grow-1 pe-3">
+            <Nav className="justify-content-end flex-grow-1">
               <Nav.Link
                 href="/about"
                 className={
@@ -49,7 +49,9 @@ function Header() {
                 Projects
               </Nav.Link>
               <Nav.Link
-                href={resume} download
+                href={resume}
+                target = "_blank"
+                rel = "noopener noreferrer"
                 className="inactive-nav"
               >
                 Resume

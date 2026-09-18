@@ -18,20 +18,22 @@ function About() {
         <div className="about-text">
           <p>
             I’ve been fascinated with computers since I was nine years old and
-            teaching since I was in high school. I want to pursue a career in
-            Educational Technology, shaping systems and curricula to help
-            students succeed.
+            teaching since I was in high school. I want to pursue research in HCI and education,
+            particularly Math, CS, and language eduation.
           </p>
           <p>
-            I’m currently a senior at Scripps College, studying Math and
-            Computer Science through the program at Harvey Mudd College. I’m
-            especially interested in Human-Computer Interaction (HCI). I’m also
-            the President of the Scripps Cheese Club!
+            I recently graduated from Scripps College, where I studied Computer Science and
+            Math through the program at Harvey Mudd College. I'm now teachning ESL (English as a second language)
+            in Miranda de Ebro, Spain.
           </p>
           <p>
-            I’ve most recently completed a second internship at Scout Clean
-            Energy in Boulder, CO, developing Geospatial (GIS) tools and
-            software for clean energy development.
+            My professional experience spans creating GIS tools for clean energy development,
+            educational game design and development, and most recently implementing HCI principles
+            to create UI in a lab ennvironment for the Magnetic Imaging Group at the National Institute of
+            Standards and Technology (NIST). I've also taught and tutored Math and English for students from 1st-12th grade.
+          </p>
+          <p>
+            Outside of work, I love to read, hike, ski, and eat cheese!
           </p>
         </div>
       </div>

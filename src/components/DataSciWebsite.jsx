@@ -71,6 +71,7 @@ function DataSciWebsite() {
         transforming the UX/UI team’s visions into reality, but that didn’t mean
         we didn’t do our fair share of prototyping!
       </p>
+      <div className="image-container">
       <div className="center-content">
         <img
           src={whiteboard_wireframe}
@@ -80,6 +81,8 @@ function DataSciWebsite() {
         <p className="label">
           Diya and I presenting a low-fidelity wireframe for the Home Page.
         </p>
+        </div>
+        <div className="center-content">
         <img
           src={courses_wireframe}
           className="width-600"
@@ -88,6 +91,8 @@ function DataSciWebsite() {
         <p className="label">
           A Figma wireframe I created to envision the Courses Page.
         </p>
+        </div>
+      
       </div>
       <hr className="divider" />
       <h1 className="margin-left project-header">Website Development</h1>
@@ -112,7 +117,7 @@ function DataSciWebsite() {
         </p>
       </div>
       <div className="center-content">
-        <img src={early_faqs} className="early-faqs" alt="A screenshot of a webpage giving details about FAQs"/>
+        <img src={early_faqs} className="width-700" alt="A screenshot of a webpage giving details about FAQs"/>
         <p className="label">An early version of the FAQs page.</p>
       </div>
       <hr className="divider" />
@@ -127,7 +132,7 @@ function DataSciWebsite() {
         </p>
       </div>
       <div className="center-content">
-        <img src={progress} className="progress-img" alt="A document with weekly progress details about the project"/>
+        <img src={progress} className="width-600" alt="A document with weekly progress details about the project"/>
         <p className="label">A screenshot from our weekly progress document.</p>
       </div>
 
@@ -150,7 +155,7 @@ function DataSciWebsite() {
             <li>The Hive at the Claremont Colleges</li>
           </ul>
         </p>
-        <img src={poster} className="poster-img" alt="My team with our project poster"/>
+        <img src={poster} className="width-600" alt="My team with our project poster"/>
       </div>
       <hr className="divider" />
       <div className="center-content">
