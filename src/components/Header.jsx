@@ -1,8 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import resume from "./files/PortfolioResume.pdf";
+import resume from "./files/kerschner_cv_112026.pdf";
 
 function Header() {
   return (
@@ -54,7 +53,7 @@ function Header() {
                 rel = "noopener noreferrer"
                 className="inactive-nav"
               >
-                Resume
+              CV
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

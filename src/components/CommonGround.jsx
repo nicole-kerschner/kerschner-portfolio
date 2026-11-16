@@ -133,7 +133,7 @@ function CommonGround() {
             src={digital_playtest}
             className="width-600"
             alt="A digital playtest with four players gathered around a TV screen with the game displayed."
-          />
+          />kk
           <p className="label">
             A photo from one of our digital playtests with players gathered
             around a single screen to play.
