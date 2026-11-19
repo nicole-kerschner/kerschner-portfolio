@@ -6,6 +6,7 @@ import About from "./components/About.jsx";
 import DataSciWebsite from "./components/DataSciWebsite.jsx";
 import CommonGround from "./components/CommonGround.jsx"
 import Song2Playlist from "./components/Song2Playlist.jsx"
+import ReelsHunters from "./components/ReelsHunters.jsx"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/projects/data-sci-website" element={<DataSciWebsite />} />
         <Route exact path="/projects/common-ground" element={<CommonGround/>} />
         <Route exact path="/projects/song-2-playlist" element={<Song2Playlist/>} />
+        <Route exact path="/projects/reels-hunters" element={<ReelsHunters/>} />
       </Routes>
     </BrowserRouter>
   );

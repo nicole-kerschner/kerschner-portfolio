@@ -18,7 +18,7 @@ function Home() {
           Harvey Mudd College. Currently, I'm in Spain teaching English through the NALCAP program.
         </p>
         <p className="home-p">
-          I’m interested in Education, Human-Computer Interaction (HCI), and Software Development.
+          I’m interested in Education, Human-Computer Interaction (HCI), and Game Development.
         </p>
       </div>
     </div>
